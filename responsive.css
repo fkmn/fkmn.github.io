@@ -1,0 +1,8 @@
+@media(max-width:670px){
+    .menu-list{
+        flex-direction: column;
+    }
+    .menu-list li{
+        margin: 0px auto;
+    }
+}
