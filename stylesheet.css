@@ -97,3 +97,31 @@ header{
   width: 400px;
   margin-top: 100px;
 }
+.nigaoe img{
+  width: 160px;
+}
+.profile h1{
+  font-family:Helvetica, Arial,  sans-serif;
+  font-weight: normal;
+}
+.profile{
+  float: left;
+  margin: 30px 50px;
+  width: 960px;
+}
+.profile-furukawa dt{
+  float: left;
+  display: block;
+  width: 20%;
+  font-size: 13px;
+}
+.profile-furukawa dd{
+  float: right;
+  display: block;
+  width: 80%;
+  font-size: 13px;
+}
+.profile-furukawa{
+  display: table;
+  margin-bottom: 20px;
+}
