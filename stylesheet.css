@@ -5,14 +5,25 @@ header{
 }
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+  grid-template: 
+  "....."
+  "header"
+  "top-wrapper "
+  "footer"
+  ".....";
+}
+footer{
+  grid-area: footer;
+}
+header{
+ grid-area: header; 
 }
 .container{
-  max-width: 700px;
-  width: 700px;
+  max-width: 800px;
+  width: 100%;
   margin: 50px auto ;
-  border:4px solid #ffc0cb;
-  border-radius: 10px 10px 0px 0px;
+  /* border:4px solid #ffc0cb; */
+  /* border-radius: 10px 10px 0px 0px; */
  
 }
 .top-container h1{
@@ -63,10 +74,13 @@ body{
   margin: 50px 0px;
 }
 .top-wrapper{
-  width: 700px;
+  grid-area: top-wrapper;
+  max-width: 800px;
+  width: 100%;
   margin: 0px auto ;
-  border:4px solid #ffc0cb;
-  border-radius: 10px;
+  /* border:4px solid #ffc0cb; */
+  /* border-radius: 10px; */
+  
 }
 .illust-page{
   width: 600px;
@@ -76,4 +90,10 @@ body{
   text-align: center;
 
 }
-
+.contact-page{
+  text-align: center;
+}
+.aluf{
+  width: 400px;
+  margin-top: 100px;
+}
